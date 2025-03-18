@@ -252,7 +252,7 @@ Exemplos de Uso
 Exemplo 1: Listar Projetos
 bash
 Copy
-curl -X POST https://apiplanka.digitalztecnologia.com.br/api/execute \
+curl -X POST https://baseurl/api/execute \
      -H "Content-Type: application/json" \
      -H "Authorization: Bearer meu_token_secreto" \
      -d '{"action": "get_projects"}'
